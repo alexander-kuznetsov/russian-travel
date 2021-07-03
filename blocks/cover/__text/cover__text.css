@@ -1,0 +1,11 @@
+.cover__text {
+    position: absolute;
+    left: calc((100% - 560px)/2);
+    top: calc((100% - 250px)/2);
+}
+@media screen and (max-width: 767px){
+    .cover__text {
+        left: calc((100% - 288px)/2);
+        top: calc((100% - 134px)/2);
+    }
+}

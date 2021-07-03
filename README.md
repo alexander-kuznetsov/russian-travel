@@ -3,7 +3,9 @@
 ### Обзор
 * Интро
 * Figma
-* Картинки
+* GitHub 
+* GitHub Pages
+* Технологии
 
 **Интро**
 
@@ -15,9 +17,11 @@
 
 * [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
-**Картинки**
+**GitHub Pages**
+* [Ссылка на задеплоенный проект](https://alexander-kuznetsov.github.io/russian-travel/index.html)
+  
+**GitHub**
+* [Ссылка на репозиторий](https://github.com/alexander-kuznetsov/russian-travel.git)
 
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
-Удачи!
+**Технологии**
+В рамках работы над адаптивной странице сайта были использованы технологии grid layout & flex, относительные и вычисляемые величины размеров, медиа запросы
