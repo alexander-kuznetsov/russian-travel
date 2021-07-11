@@ -1,4 +1,5 @@
 .cover__title {
+    z-index: 1;
     max-width: 560px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
