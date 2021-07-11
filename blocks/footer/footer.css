@@ -4,6 +4,11 @@
     justify-content: space-between;
     padding-top: 92px;
 }
+@media screen and (max-width: 1023px) {
+    .footer {
+        padding-top: 88px;
+    }
+}
 @media screen and (max-width: 767px) {
     .footer {
         flex-direction: column;
