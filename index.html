@@ -9,18 +9,20 @@
 <body class="page">
 <header class="header page__section">
     <img class="header__logo" src="images/header/logo.svg" alt="Россия">
-    <div class="header__ctrl-languages">
-        <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
-        <a class="header__lang-link" href="#">En</a>
-    </div>
+    <ul class="header__ctrl-languages">
+        <li><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
+        <li><a class="header__lang-link" href="#">En</a></li>
+    </ul>
 </header>
 
 <main class="content">
     <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img class="lead__platskart" src="images/lead/__platskart/platskart.png" alt="Плацкарт поезда">
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <figure class="lead__figure">
+            <img class="lead__platskart" src="images/lead/__platskart/platskart.png" alt="Плацкарт поезда">
+            <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
     </section>
     <section class="intro">
         <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -41,23 +43,23 @@
         </ul>
     </section>
     <section class="photo-grid">
-        <img class="photo-grid__item" src="images/photo-grid/__item/train.png" alt="Поезд">
-        <img class="photo-grid__item" src="images/photo-grid/__item/sky.png" alt="Небо">
-        <img class="photo-grid__item" src="images/photo-grid/__item/wolf.png" alt="Волк">
-        <img class="photo-grid__item" src="images/photo-grid/__item/forest.png" alt="Лес">
-
-        <img class="photo-grid__item" src="images/photo-grid/__item/baikal.png" alt="Байкал">
-        <img class="photo-grid__item" src="images/photo-grid/__item/beach.png" alt="Пляж">
-        <img class="photo-grid__item" src="images/photo-grid/__item/mountains.png" alt="Горы">
-        <img class="photo-grid__item" src="images/photo-grid/__item/crosswalk.png" alt="Пешеходный переход">
-
-        <img class="photo-grid__item" src="images/photo-grid/__item/river-and-hills.png" alt="Река в холмах">
-        <img class="photo-grid__item" src="images/photo-grid/__item/volcano.png" alt="Вулкан">
-        <img class="photo-grid__item" src="images/photo-grid/__item/rock.png" alt="Скала">
-        <img class="photo-grid__item" src="images/photo-grid/__item/fog.png" alt="Туман">
+        <ul class="photo-grid__items">
+            <li><img class="photo-grid__item" src="images/photo-grid/__item/train.png" alt="Поезд"></li>
+            <li><img class="photo-grid__item" src="images/photo-grid/__item/sky.png" alt="Небо"></li>
+            <li><img class="photo-grid__item" src="images/photo-grid/__item/wolf.png" alt="Волк"></li>
+            <li><img class="photo-grid__item" src="images/photo-grid/__item/forest.png" alt="Лес"></li>
+            <li><img class="photo-grid__item" src="images/photo-grid/__item/baikal.png" alt="Байкал"></li>
+            <li><img class="photo-grid__item" src="images/photo-grid/__item/beach.png" alt="Пляж"></li>
+            <li><img class="photo-grid__item" src="images/photo-grid/__item/mountains.png" alt="Горы"></li>
+            <li><img class="photo-grid__item" src="images/photo-grid/__item/crosswalk.png" alt="Пешеходный переход"></li>
+            <li><img class="photo-grid__item" src="images/photo-grid/__item/river-and-hills.png" alt="Река в холмах"></li>
+            <li><img class="photo-grid__item" src="images/photo-grid/__item/volcano.png" alt="Вулкан"></li>
+            <li><img class="photo-grid__item" src="images/photo-grid/__item/rock.png" alt="Скала"></li>
+            <li><img class="photo-grid__item" src="images/photo-grid/__item/fog.png" alt="Туман"></li>
+        </ul>
     </section>
     <section class="places">
-        <div class="place places__place">
+        <article class="place places__place">
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
                 <p class="place__url-heading">URL</p>
@@ -73,8 +75,8 @@
                     наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в
                     спокойствие природы и запах стального, прохладного моря.</p>
             </div>
-        </div>
-        <div class="place places__place">
+        </article>
+        <article class="place places__place">
             <h2 class="place__title">Кольский</h2>
             <div class="place__website">
                 <p class="place__url-heading">URL</p>
@@ -93,8 +95,8 @@
                     билетом
                     в Мурманск.</p>
             </div>
-        </div>
-        <div class="place places__place">
+        </article>
+        <article class="place places__place">
             <h2 class="place__title">Алтай</h2>
             <div class="place__website">
                 <p class="place__url-heading">URL</p>
@@ -111,9 +113,8 @@
                     увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают
                     орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
             </div>
-        </div>
-
-        <div class="place places__place">
+        </article>
+        <article class="place places__place">
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__website">
                 <p class="place__url-heading">URL</p>
@@ -130,8 +131,8 @@
                     к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на
                     фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
             </div>
-        </div>
-        <div class="place places__place">
+        </article>
+        <article class="place places__place">
             <h2 class="place__title">Карелия</h2>
             <div class="place__website">
                 <p class="place__url-heading">URL</p>
@@ -148,7 +149,7 @@
                     в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
                 </p>
             </div>
-        </div>
+        </article>
     </section>
     <section class="cover">
         <a class="cover__text" href="https://stampsy.com/na-elektrichkakh-do-baikala">
