@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 .cover__text::before {
@@ -19,11 +20,6 @@
     opacity: 0.3;
 }
 .cover__text:hover::before {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    content: '';
     opacity: 0.8;
     transition: opacity 0.2s linear;
 }

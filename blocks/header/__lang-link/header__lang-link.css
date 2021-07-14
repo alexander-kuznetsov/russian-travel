@@ -9,7 +9,8 @@
     color: #FFFFFF;
 }
 .header__lang-link:hover {
-    text-decoration: underline;
+    opacity: 0.8;
+    transition: opacity 0.2s linear;
 }
 @media screen and (max-width: 767px) {
     .header__lang-link {
